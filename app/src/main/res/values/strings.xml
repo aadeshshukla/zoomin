@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gesture Zoom</string>
+
+    <!-- Permission denial UI -->
+    <string name="permission_required_title">Camera permission required</string>
+    <string name="permission_required_message">Gesture Zoom uses the camera to detect your hand and control the zoom. Please grant the camera permission to continue.</string>
+    <string name="permission_retry">Grant permission</string>
+
+    <!-- Overlay labels -->
+    <string name="zoom_label_format">Zoom: %1$.1fx</string>
+    <string name="hint_pinch">Pinch to zoom</string>
+</resources>

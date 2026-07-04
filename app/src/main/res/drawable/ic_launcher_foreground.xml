@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Hand-with-pinch-glyph foreground for the adaptive icon.
+    Pure vector — no raster assets required.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Two opposing arcs representing a pinch gesture. -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,32 C41.85,32 32,41.85 32,54 C32,57.39 32.78,60.62 34.18,63.52 L37.92,61.66 C36.85,59.51 36.27,56.83 36.27,54 C36.27,44.27 44.27,36.27 54,36.27 C63.73,36.27 71.73,44.27 71.73,54 C71.73,56.83 71.15,59.51 70.08,61.66 L73.82,63.52 C75.22,60.62 76,57.39 76,54 C76,41.85 66.15,32 54,32 Z" />
+
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,76 C66.15,76 76,66.15 76,54 L71.73,54 C71.73,63.73 63.73,71.73 54,71.73 C44.27,71.73 36.27,63.73 36.27,54 L32,54 C32,66.15 41.85,76 54,76 Z" />
+
+    <!-- Inner pinch dot. -->
+    <path
+        android:fillColor="#FFFFCC00"
+        android:pathData="M54,46 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0" />
+
+</vector>

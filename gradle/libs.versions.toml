@@ -1,0 +1,55 @@
+[versions]
+# Build tooling
+agp = "8.5.2"
+kotlin = "1.9.24"
+
+# AndroidX core / UI
+core-ktx = "1.13.1"
+appcompat = "1.7.0"
+activity-ktx = "1.9.0"
+lifecycle-runtime-ktx = "2.8.4"
+constraintlayout = "2.1.4"
+material = "1.12.0"
+
+# CameraX — pinned to the 1.3.x line for stable behavior.
+camerax = "1.3.4"
+
+# ML Kit — on-device hand detection. 16.0.1 is the latest stable as of 2024.
+mlkit-hand-detection = "16.0.1"
+
+# Kotlin coroutines (+ guava adapter so we can await ListenableFuture)
+coroutines = "1.8.1"
+coroutines-guava = "1.8.1"
+
+# Test
+junit = "4.13.2"
+
+[libraries]
+# AndroidX
+androidx-core-ktx               = { module = "androidx.core:core-ktx",                          version.ref = "core-ktx" }
+androidx-appcompat              = { module = "androidx.appcompat:appcompat",                    version.ref = "appcompat" }
+androidx-activity-ktx           = { module = "androidx.activity:activity-ktx",                  version.ref = "activity-ktx" }
+androidx-lifecycle-runtime-ktx  = { module = "androidx.lifecycle:lifecycle-runtime-ktx",        version.ref = "lifecycle-runtime-ktx" }
+androidx-constraintlayout       = { module = "androidx.constraintlayout:constraintlayout",      version.ref = "constraintlayout" }
+material                        = { module = "com.google.android.material:material",            version.ref = "material" }
+
+# CameraX
+camerax-core                    = { module = "androidx.camera:camera-core",                     version.ref = "camerax" }
+camerax-camera2                 = { module = "androidx.camera:camera-camera2",                  version.ref = "camerax" }
+camerax-lifecycle               = { module = "androidx.camera:camera-lifecycle",                version.ref = "camerax" }
+camerax-view                    = { module = "androidx.camera:camera-view",                     version.ref = "camerax" }
+
+# ML Kit Hand Detection (on-device)
+mlkit-hand-detection            = { module = "com.google.mlkit:hand-detection",                 version.ref = "mlkit-hand-detection" }
+
+# Coroutines + ListenableFuture adapter
+kotlinx-coroutines-core         = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core",   version.ref = "coroutines" }
+kotlinx-coroutines-android      = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android",version.ref = "coroutines" }
+kotlinx-coroutines-guava        = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-guava",  version.ref = "coroutines-guava" }
+
+# Test
+junit                           = { module = "junit:junit",                                     version.ref = "junit" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android      = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Adaptive icon background -->
+    <color name="ic_launcher_background">#FF1F2933</color>
+
+    <!-- Overlay tints -->
+    <color name="overlay_text">#FFFFFFFF</color>
+    <color name="overlay_shadow">#80000000</color>
+    <color name="permission_panel">#FF202124</color>
+</resources>
