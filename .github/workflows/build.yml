@@ -17,5 +17,12 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
 
-      - name: Build Debug APK
-        run: gradle assembleDebug
+      - name: Build Debug APK with Stacktrace
+        run: gradle assembleDebug --stacktrace --no-daemon
+
+      - name: Upload APK
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gesture-camera-apk
+          path: "**/build/outputs/apk/debug/*.apk"
