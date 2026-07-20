@@ -143,6 +143,4 @@ gesture-zoom-camera/
 
 ---
 
-## License
 
-Sample / educational use. ML Kit terms of service apply.
