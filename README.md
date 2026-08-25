@@ -13,7 +13,6 @@ The pinch distance is normalized by the user's hand size (wrist ↔
 middle-finger-MCP) so the gesture stays consistent regardless of how close
 or far the hand is from the camera.
 
----
 
 ## Tech stack
 
