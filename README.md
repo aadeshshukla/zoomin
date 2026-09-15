@@ -120,7 +120,7 @@ gesture-zoom-camera/
 └── README.md
 ```
 
----
+
 
 ## Known limitations
 
