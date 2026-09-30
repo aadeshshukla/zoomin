@@ -1,6 +1,6 @@
 # Gesture Zoom Camera
 
-A minimal Android camera app that lets the user zoom in and out by pinching
+A minimal Android camera app that lets the user zoom in and out by moving 
 their fingers in front of the back camera. Powered by **CameraX** for the
 preview / analysis pipeline and **Google ML Kit's on-device Hand Detection**
 (`STREAM_MODE`) for landmark tracking — both bundled so the app is fully
